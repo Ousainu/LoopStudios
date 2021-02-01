@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Alata", sans-serif;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background: url("/images/mobile/image-hero.jpg");
+    background-size: 100vw 100vh;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    /* position: relative; */
+  }
+
+  .navigation {
+    padding-top: 11%;
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .head-content {
+    margin-top: 40%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 5px;
+    border: 2px solid white;
+    display: flex;
+  }
+
+  .head-content > p {
+    color: white;
+    font-family: "josefin", sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 20px 20px 5px;
+    padding-right: 60px;
+    margin: 0px;
+  }
+}
