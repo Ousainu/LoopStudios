@@ -87,9 +87,22 @@ body {
   }
 
   .creation-content > h2 {
-    text-align: center;
+    align-self: center;
     font-size: 32px;
     font-weight: 100;
     padding-top: 40px;
+  }
+
+  .see-all-btn > button {
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 30px;
+    letter-spacing: 2px;
+  }
+
+  .see-all-btn {
+    align-self: center;
   }
 }
