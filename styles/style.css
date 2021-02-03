@@ -73,4 +73,23 @@ body {
     font-size: 16px;
     font-family: "Alata", sans-serif;
   }
+
+  .creation-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .banners > img {
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .creation-content > h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 100;
+    padding-top: 40px;
+  }
 }
