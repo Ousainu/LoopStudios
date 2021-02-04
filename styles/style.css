@@ -80,10 +80,91 @@ body {
     justify-content: space-between;
   }
 
-  .banners > img {
+  .image-banner > img {
     max-width: 100%;
     max-height: 100%;
     padding-bottom: 20px;
+    filter: brightness(70%);
+  }
+
+  .image-banner > .deep-earth-text {
+    position: absolute;
+    top: 217%;
+    left: 10%;
+    color: hsl(0, 0%, 100%);
+    width: 20%;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .image-banner > .night-arcade-text {
+    position: absolute;
+    top: 240%;
+    left: 10%;
+    color: hsl(0, 0%, 100%);
+    width: 20%;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .image-banner > .soccer-team-text {
+    position: absolute;
+    top: 262%;
+    left: 10%;
+    color: hsl(0, 0%, 100%);
+    width: 28%;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .image-banner > .grid-text {
+    position: absolute;
+    top: 284%;
+    left: 10%;
+    color: hsl(0, 0%, 100%);
+    width: 26%;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .image-banner > .above-text {
+    position: absolute;
+    top: 306%;
+    left: 10%;
+    color: hsl(0, 0%, 100%);
+    width: 30%;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .image-banner > .pocket-text {
+    position: absolute;
+    top: 328%;
+    left: 10%;
+    color: hsl(0, 0%, 100%);
+    width: 30%;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .image-banner > .curiosity-text {
+    position: absolute;
+    top: 350%;
+    left: 10%;
+    color: hsl(0, 0%, 100%);
+    width: 30%;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+
+  .image-banner > .fisheye-text {
+    position: absolute;
+    top: 373%;
+    left: 10%;
+    color: hsl(0, 0%, 100%);
+    width: 30%;
+    font-size: 20px;
+    letter-spacing: 1px;
   }
 
   .creation-content > h2 {
@@ -104,5 +185,49 @@ body {
 
   .see-all-btn {
     align-self: center;
+  }
+
+  .footer > footer {
+    background-color: hsl(0, 0%, 0%);
+    height: 95vh;
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-logo {
+    margin-top: 20px;
+    padding-top: 15%;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 35%;
+    margin-top: -55px;
+  }
+
+  .footer-links > a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+  }
+
+  .footer-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    margin-top: -55px;
+  }
+
+  .footer-copyright > p {
+    color: hsl(0, 0%, 55%);
+    font-weight: bold;
   }
 }
